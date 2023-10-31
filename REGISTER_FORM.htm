@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)https://www.fsm.gov.mo/psp/SMGQuerySystem2/tnrquery6/qQR.aspx?k=24291254DHK1Ma68D1# -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=9,IE=8,IE=7,IE=10,IE=11,IE=12"><title>
+
+</title><link href="./REGISTER FORM_files/main.css" rel="stylesheet" type="text/css"><link href="./REGISTER FORM_files/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <script src="./REGISTER FORM_files/jquery.min.js.download"></script>
+    <script src="./REGISTER FORM_files/jquery-ui.min.js.download"></script>
+    <script src="./REGISTER FORM_files/jquery.maskedinput.min.js.download"></script> 
+    <script>
+        $(document).ready(function () {
+            $("#txtBirth").mask("99/99/9999" );  
+            $("input").bind("keydown", function (event) {
+                // track enter key
+                var keycode = (event.keyCode ? event.keyCode : (event.which ? event.which : event.charCode));
+                if (keycode == 13) { // keycode for enter key
+                    // force the 'Enter Key' to implicitly click the Update button
+                    $('.defaultActionButton').click();
+                    return false;
+                } else {
+                    return true;
+                }
+            }); // end of function
+
+        }); // end of document ready
+    </script>
+    <style>
+         
+        #DivQuery {
+            margin: 0 auto;
+            position: relative;
+            width: 950px;
+        }
+
+        #DivResult, #TableResult {
+            margin: 0 auto;
+            position: relative;
+            width: 1000px;
+        }
+         
+
+        .td1 {
+            vertical-align:top;
+            width: 310px;
+            text-align: right;  
+            padding-top:10px;
+            padding-bottom:50px;
+        }
+
+        .td2 {
+            vertical-align:top;
+            width: 200px;
+            text-align: left;
+            padding-left: 10px; 
+            padding-top:10px; 
+        }
+
+        .td3 {
+            vertical-align:top; 
+            text-align: left; 
+            padding-top:10px;
+            padding-bottom:50px;
+            color: #000000;
+        }
+
+        .td4 {
+            text-align: center; 
+        }
+
+        .br1 {
+            display: none;
+        }
+
+        .br2 {
+            display: block;
+        }
+
+        .btn1 {
+            border-color: #385d8a;
+            border-radius: 5px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: #000000;
+        }
+
+       .btn2 {
+            border-color: #385d8a;
+            border-radius: 5px;
+            padding-bottom: 5px; 
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom:10px;
+            margin-top:10px;
+            min-width:120px;
+            padding:10px 10px 10px 10px ;
+            margin-left:15px;
+        }
+         .GreenBtn
+               {
+            background-color:#00b050;
+            color:yellow;
+            margin-left:15px;
+               }
+         
+        @media (max-width: 610px) {
+              .btn-list span.linkTag
+            {max-width:90%;
+             width:90%
+            }
+            .table1 > tbody > tr > td {
+                display: table-row;
+            }
+             
+            #DivQuery {
+                width: 95%;
+            }
+
+            #DivResult, #TableResult {
+                width: 95%;
+            }
+             
+
+            .td1, .td2, .td3, .td4 {
+                text-align: left;  
+                width:100%;
+            }
+
+             
+            .td3 {
+                color: #000000;
+            }
+
+            .img1 {
+                max-width: 98%;
+            }
+
+
+            .br1 {
+                display: block;
+            }
+            .br2 {
+                display: none;
+            }
+
+            .btn1 {
+                color: #000000;
+            }
+
+            .btn2 {
+                margin-top:0px;
+            }
+
+        }
+        body {
+  background-image: url('d:/akash/Capture.PNG');
+        }
+
+    </style>
+  <script>
+        $(function () {
+            $("#txtBirth").datepicker({
+                changeMonth: true,
+                changeYear: true, dateFormat: 'dd/mm/yy',
+                yearRange: "-100:+0"
+                 
+
+            });
+        });
+  </script> 
+</head>
+<body>
+    
+    <form name="form1" method="post" action="https://www.fsm.gov.mo/psp/SMGQuerySystem2/tnrquery6/qQR.aspx?k=24291254DHK1Ma68D1" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjEwMTAwMzQ2NWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFDEltYWdlQnV0dG9uMUIO/6xVQT6TYEzI2hjTpmlRKX5I">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8EE253C2">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAUnMeOH/SW79jo9WXh3IqO4nedkdvNE2e3R6Sd+HLjEmhOP80OEZ/JKGL7NaZPQYBvpkAKvHlFmeWUpJ6tT4i4qzfg78Z8BXhXifTCAVkevdyfrkk0gDxOoqLYhDBU0kX+KEqPk">
+</div>
+        <div>
+
+            <div style="text-align: center">
+                <table id="DivQuery" border="0" cellpadding="0" cellspacing="0" height="288">
+	<tbody><tr>
+		<td width="950" style="border-bottom-color: Gray; border-bottom-style: solid; border-bottom-width: 1px; height: 64px;">
+                               
+                                    <img class="img1" border="0" src="./REGISTER FORM_files/psp.png">
+                                   
+                                  
+                            
+
+                            <font align="center">
+                                <br>
+                                <strong><span style="text-decoration: underline;" class="color1">「僱員身份的逗留許可」查詢系統
+<br><span class="por"> 
+                                    Sistema de consulta da Autorização de Permanência na qualidade de trabalhador  <br></span><span class="eng">
+
+                                   
+                                    Inquiry System of Authorization to Stay as Worker
+                                </span>
+
+                                </span></strong>
+                            </font>
+                        </td>
+	</tr>
+	<tr>
+		<td align="center">
+
+
+                            <table border="0" width="100%" class="table1">
+                      
+                               
+                                 <tbody><tr>
+                        <td colspan="2">請輸入以下資料繼續查詢：<br><span class="por">
+Introduza os seguintes dados para prosseguir a pesquisa: <br></span><span class="eng">
+Please enter the following information for inquiry:</span><br>            <br>            </td> 
+                    </tr>
+                                       <tr>
+                                    <td class="td1">
+                                        
+                                      
+                                         
+                                            持證人出生日期 (DD/MM/YYYY)<br><span class="por">
+                                        Data de nascimento do titular de TI/TNR (DD/MM/AAAA) <br></span><span class="eng">
+                                          Date of Birth of Holder of Card (DD/MM/YYYY)</span>          
+                                         
+                                    </td>
+                                    <td class="td2">
+                                         
+                                            <input name="txtBirth" type="text" id="txtBirth" required="" class="hasDatepicker">
+                                  
+                                        &nbsp;</td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                         
+                                        
+                                         
+                                            驗證碼 <br><span class="por">
+                                            Código de Verificação <br></span><span class="eng">
+                                        Verification Code</span>
+                                    </td>
+                                    <td class="td2">
+                                        <input name="tb_validcode" type="text" maxlength="4" id="tb_validcode" required="" style="width:60px;">
+                                        </td><td class="td3">
+                                        <img src="./REGISTER FORM_files/ValidateCode.aspx" align="absmiddle">
+                                        
+                                         <input type="image" name="ImageButton1" id="ImageButton1" class="refreshBtn" src="./REGISTER FORM_files/refresh.png" style="border-width:0px;">
+                                        
+                                    </td>
+                                    <td> 
+
+                                    </td>
+                                </tr>
+                                 
+                                <tr align="center">
+                                    <td colspan="3" style="border-bottom-color: Gray; border-bottom-style: solid; border-bottom-width: 1px">
+                                        <span id="ErrMsg" style="color:Red;"></span>
+                                         &nbsp; &nbsp; &nbsp;
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="3" class="td4"><input type="submit" name="Button1" value="確定 / Confirmar / Confirm" id="Button1" class="btn2 GreenBtn defaultActionButton" style="width:230px;">
+                                                <br class="br1">
+                                        
+                                                      <input type="reset" value="重新輸入 / Reintrodução / Refresh" class="btn2 mar15" width="230px">
+                         
+                                    </td>
+                                </tr>
+                                    <tr>
+                                    <td colspan="3" class="td4">
+                                         
+                                        
+                              <div class="btn-list"> 
+                                           <a href="https://www.fsm.gov.mo/psp/SMGQuerySystem2/tnrquery6/tnr6login.aspx"> <span id="Label2" class="linkTag" style="background-color:#93cddd;">外地僱員網上服務<br>Serviços electrónicos para TNR <br>Online Services for Non-resident Workers</span></a>
+                                  </div>
+
+                                    </td>
+                                </tr>
+                                 
+                            </tbody></table>
+                             
+                        </td>
+	</tr>
+	<tr>
+		<td style="height: 30px" width="950" align="center"></td>
+	</tr>
+</tbody></table>
+
+
+
+            </div>
+             
+
+        </div>
+    </form>
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+</body></html>
